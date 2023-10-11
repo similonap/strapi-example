@@ -379,6 +379,7 @@ export interface ApiPostPost extends Schema.CollectionType {
     author: Attribute.Relation<'api::post.post', 'oneToOne', 'admin::user'>;
     published: Attribute.DateTime;
     cover: Attribute.Media;
+    test: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
